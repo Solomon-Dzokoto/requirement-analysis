@@ -1,26 +1,117 @@
+📄 Requirement Analysis
 📘 What is Requirement Analysis?
-Requirement Analysis is a fundamental phase in the Software Development Lifecycle (SDLC) where the needs, expectations, and constraints of stakeholders are gathered, analyzed, and documented. It serves as the foundation for all subsequent phases of the project, ensuring that the final product meets user demands and aligns with business goals.
+Requirement Analysis is a critical process in the Software Development Lifecycle (SDLC) where the needs of stakeholders are gathered, analyzed, and documented. It ensures that the software being built solves the right problems and delivers value to its users.
 
-🔍 What It Involves:
-Requirement Analysis is not just about collecting user requests. It involves:
+Why It Matters:
+Prevents costly rework by clarifying requirements early.
 
-Eliciting requirements through interviews, surveys, observations, and brainstorming sessions.
+Sets the foundation for design, development, and testing.
 
-Analyzing those requirements to detect conflicts, ambiguities, or redundancies.
+Aligns business goals with technical implementation.
 
-Documenting the findings in the form of requirement specifications, use cases, and user stories.
+❓ Why is Requirement Analysis Important?
+Defines Clear Project Scope
 
-Validating requirements by reviewing them with stakeholders to ensure accuracy and feasibility.
+Establishes boundaries for what the system will and won’t do.
 
-🚀 Why It's Important in the SDLC:
-✅ Defines Project Scope: Clearly outlines what should and shouldn’t be included in the system, preventing scope creep.
+Helps manage stakeholder expectations and reduces scope creep.
 
-🛠️ Guides Design & Development: Provides a blueprint for developers and designers to follow.
+Improves Communication
 
-📉 Reduces Rework & Costs: Early clarification reduces the likelihood of costly changes later in development.
+Creates a shared understanding between technical teams and business stakeholders.
 
-🤝 Enhances Stakeholder Communication: Acts as a common language between technical and non-technical team members.
+Acts as a reference point throughout the project.
 
-🧪 Supports Testing: Establishes acceptance criteria and test cases to ensure the system meets its intended purpose.
+Reduces Development Cost & Time
 
-Without effective requirement analysis, teams risk building a product that is technically sound but fails to satisfy the actual needs of its users.
+Identifies potential issues early, avoiding costly fixes later.
+
+Streamlines development with well-defined requirements and priorities.
+
+🔑 Key Activities in Requirement Analysis
+Requirement Gathering
+
+Collect information from stakeholders using interviews, surveys, observations, etc.
+
+Requirement Elicitation
+
+Clarify, explore, and refine requirements using brainstorming, prototyping, and analysis.
+
+Requirement Documentation
+
+Record requirements in formats such as SRS, user stories, or use case documents.
+
+Requirement Analysis and Modeling
+
+Examine feasibility, conflicts, and dependencies.
+
+Create models like data flow diagrams, use case diagrams, etc.
+
+Requirement Validation
+
+Confirm that documented requirements reflect stakeholders’ needs.
+
+Conduct reviews and walkthroughs with clients and teams.
+
+🧩 Types of Requirements
+🛠 Functional Requirements
+These describe what the system should do. They define system behaviors, features, and interactions.
+
+Examples for Booking System:
+
+User registration and login.
+
+Booking a property.
+
+Viewing booking history.
+
+Cancelling a booking.
+
+🔒 Non-functional Requirements
+These describe how the system should perform. They cover system qualities like performance, usability, and security.
+
+Examples:
+
+The system must load booking pages within 2 seconds.
+
+All sensitive user data must be encrypted.
+
+The system must support up to 10,000 concurrent users.
+
+🎯 Use Case Diagrams
+Use Case Diagrams visually represent the interactions between users (actors) and the system, helping teams understand system functionality at a high level.
+
+Benefits:
+Provides a clear overview of system functionality.
+
+Helps identify system boundaries and actors.
+
+Facilitates communication with non-technical stakeholders.
+
+📷 Use Case Diagram: Booking Management System
+
+(Diagram created using Draw.io, saved as alx-booking-uc.png in the repo)
+
+✅ Acceptance Criteria
+Acceptance Criteria are conditions that a feature must meet to be accepted by stakeholders. They ensure that developers and stakeholders have a shared understanding of what is "done."
+
+Importance:
+Sets clear expectations.
+
+Guides development and testing.
+
+Helps prevent misunderstandings and scope creep.
+
+Example: Checkout Feature – Booking System
+Feature: Finalize a booking and process payment.
+
+Acceptance Criteria:
+
+The user must be able to review booking details before payment.
+
+The system must validate card details and return appropriate errors.
+
+The system must confirm successful payment with a summary screen.
+
+Confirmation email must be sent automatically to the user.
+
